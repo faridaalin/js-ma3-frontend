@@ -24,7 +24,6 @@ const getUserAccess = async (usernameValue, passwordValue) => {
   };
 
   try {
-    console.log(result);
     const response = await fetch(URL, options);
     const result = await response.json();
 
