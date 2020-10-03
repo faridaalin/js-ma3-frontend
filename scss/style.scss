@@ -1,0 +1,53 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+.loaderContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efc1f5e6;
+}
+
+.navbar {
+  padding: 1.3rem 1rem;
+}
+
+.navbar-light .navbar-brand {
+  color: #7e158ae6;
+}
+
+
+.navbar-light .navbar-nav .nav-link.user {
+  color: #7e158ae6;
+  background: #f7e5f9e6;
+  border-radius: 26px;
+  box-shadow: 0px 0px 7px 0px #7e158ae6;
+}
+
+.navbar-light .navbar-nav .nav-link.logout {
+  color: #0d4c18;
+  background: #c5eccc;
+  border-radius: 26px;
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+.navbar-light .navbar-nav .nav-link.logout:hover,
+.navbar-light .navbar-nav .nav-link.logout:focus {
+  color: #c5eccc;
+  background: #23652e;
+  border-radius: 26px;
+  box-shadow: 0px 0px 7px 0px #23652e;
+  transition: all 0.4s ease-in-out;
+}
